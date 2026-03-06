@@ -1,4 +1,11 @@
+let output = isOldEnoughToDrink(18);
 function isOldEnoughToDrink(age) {
-    // your code here
+   
+    if (age < 21){
+        return false;
+    }else return true;
+
+    
     
 }
+console.log(output);

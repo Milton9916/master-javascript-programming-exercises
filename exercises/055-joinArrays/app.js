@@ -1,5 +1,7 @@
 function joinArrays(arr1, arr2) {
   // your code here
+    let nuevo = arr1.concat(arr2);
+    return nuevo
   
 }
 

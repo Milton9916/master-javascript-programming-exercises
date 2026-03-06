@@ -1,5 +1,8 @@
 function removeFromBackOfNew(arr) {
   // your code here
+  let nuevoarr = [...arr];
+  nuevoarr.pop();
+  return nuevoarr
   
 }
 

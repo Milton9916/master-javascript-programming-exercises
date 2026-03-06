@@ -5,3 +5,4 @@ function findShortestWordAmongMixedElements(arr) {
 
 let output = findShortestWordAmongMixedElements([4, 'two', 2, 'three']);
 console.log(output); // --> 'two'
+

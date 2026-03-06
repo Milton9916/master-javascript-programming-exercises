@@ -1,6 +1,11 @@
-function getOddElementsAtProperty(obj, key) {
+function getOddElementsAtProperty(obj1, key1) {
     // your code here
-    
+    let arreglo = obj1[key1];
+    if (!arreglo || !arreglo === 0 || !Array.isArray(arreglo) ){
+      return []
+    }else{
+      return arreglo.filter(impar => impar % 2 !== 0)
+    }
 }
 
 let obj = {

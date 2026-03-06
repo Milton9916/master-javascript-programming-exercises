@@ -1,6 +1,10 @@
 function getLargestElement(arr) {
   // your code here
-  
+  if (!arr.length){
+    return 0;
+  }else{
+    return Math.max(...arr)
+  }
 }
 
 let output = getLargestElement([5, 2, 8, 3]);

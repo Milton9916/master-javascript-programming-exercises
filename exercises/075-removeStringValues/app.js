@@ -1,6 +1,11 @@
 function removeStringValues(obj) {
     // your code here
-    
+    let str;
+    for (str in obj){
+        if (typeof(obj[str])=== "string"){
+            delete obj[str]
+        }
+    }
 }
 
 let obj = {
